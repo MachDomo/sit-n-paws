@@ -49,8 +49,10 @@
 
 .postListing textarea {
   padding: 6px 20px;
+  margin-bottom: 2px;
 }
 
-.postListing input:focus {
+.postListing input:focus,
+.postListing textarea:focus {
   border: solid;
 }
