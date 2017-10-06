@@ -60,3 +60,7 @@
 .postListing-submit {
   width: 100%;
 }
+
+.postListing-error {
+  color: red;
+}

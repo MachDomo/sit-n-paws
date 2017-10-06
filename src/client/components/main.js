@@ -61,7 +61,7 @@ export default class Main extends React.Component {
           open={this.state.openPostListing}
           onRequestClose={this.postListing}
         >
-          <PostListing open={this.state.openPostListing} handleClose={this.PostListing} />
+          <PostListing />
         </Dialog>
 
 
